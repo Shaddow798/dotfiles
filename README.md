@@ -1,8 +1,10 @@
 # DOTFILES
 ## My Dotfiles I use on my personal system.
-# REPO IS CURRENTLY OUT OF DATE
+# REPO IS NOT COMPLETE
 
 These configurations are for i3wm and soon to be with sxhkd
+### If for some reason you wanted to use them
+### these are just here for me to use.
 
 They should work on just about everything but this is for ArchLinux
 
