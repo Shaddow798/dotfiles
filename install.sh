@@ -1,7 +1,12 @@
 #! /usr/bin/bash
 
-fuck = grep -x DISTRIB_ID="Arch" /etc/lsb-release
-echo $fuck
-echo "This is a test"
+
+if [ -f "/etc/arch-release" ]; then
+ echo You are running arch
+else
+ echo Error unsuported operating system.
+ 
+fi
 
 
+echo jfjf
