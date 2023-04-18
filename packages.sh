@@ -17,3 +17,14 @@ for package in ${package_list[@]}; do
 done
 echo Installing needed packages
 sudo pacman -S --needed ${packages_install[@]};
+
+if pacman -Qs yay > /dev/null ; then
+	echo Yay is installed no need to install it
+else
+	echo Installing yay
+	mkdir -p ~/.local/packages
+	cd ~/.local/packages
+	git clone https://aur.archlinux.org/yay.git 
+	cd yay 
+	makepkg -si 
+fi
