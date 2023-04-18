@@ -6,7 +6,7 @@ apperance () {
 	cp config/picom.conf ~/,config/picom/picom.conf
 	mkdir ~/.local/wallpapers/
 	cp -r wallpaper/ ~/.local/wallpapers
-	feh --bg-scale ~/.local/wallpapers/mountaingrey.jpg
+	wal -i ~/.local/wallpapers/mountaingrey.jpg > /dev/null
 }
 
 
