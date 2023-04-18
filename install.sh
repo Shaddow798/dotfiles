@@ -4,6 +4,9 @@ apperance () {
 	echo setting apperance related configuation filesi
 	cp config/gtk/settings.ini ~/.config/gtk-3.0/settings.ini
 	cp config/picom.conf ~/,config/picom/picom.conf
+	mkdir ~/.local/wallpapers/
+	cp -r wallpaper/ ~/.local/wallpapers
+	feh --bg-scale ~/.local/wallpapers/mountaingrey.jpg
 }
 
 
