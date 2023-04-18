@@ -1,5 +1,12 @@
 #! /usr/bin/bash
 
+apperance () {
+	echo setting apperance related configuation filesi
+	cp config/gtk/settings.ini ~/.config/gtk-3.0/settings.ini
+
+}
+
+
 arch_runner () {
 	sh packages.sh
 	echo Packages completed
@@ -26,6 +33,7 @@ fi
 if [ -f "/etc/arch-release" ]; then
 	echo System is compatiable continuing
 	arch_runner
+	apperance
 else
  echo Error unsuported operating system.
 fi
