@@ -7,6 +7,7 @@ apperance () {
 	mkdir ~/.local/wallpapers/
 	cp -r wallpaper/ ~/.local/wallpapers
 	wal -i ~/.local/wallpapers/mountaingrey.jpg > /dev/null
+	cp config/i3/config ~/.config/i3/config
 }
 
 

@@ -5,7 +5,7 @@ echo Making sure system is uptodate
 sudo pacman -Syu --noconfirm
 
 echo Installing packages
-package_list=(vim base-devel git xorg lightdm lightdm-gtk-greeter networkmanager i3 dmenu thunar papirus-icon-theme adapta-gtk-theme picom polybar python-pywal ttf-font-awesome)
+package_list=(vim base-devel git xorg lightdm lightdm-gtk-greeter networkmanager i3 dmenu thunar papirus-icon-theme adapta-gtk-theme picom polybar python-pywal ttf-font-awesome ttf-dejavu)
 for package in ${package_list[@]}; do
 	if pacman -Qs $package > /dev/null ; then
 		# echo "The package $package is installed"
