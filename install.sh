@@ -3,8 +3,9 @@
 apperance () {
 	echo setting apperance related configuation filesi
 	cp config/gtk/settings.ini ~/.config/gtk-3.0/settings.ini
-	cp config/picom.conf ~/,config/picom/picom.conf
-	mkdir ~/.local/wallpapers/
+	mkdir -p ~/.config/picom/
+	cp config/picom.conf ~/.config/picom/picom.conf
+	mkdir -p ~/.local/wallpapers/
 	cp -r wallpaper/ ~/.local/wallpapers
 	wal -i ~/.local/wallpapers/mountaingrey.jpg > /dev/null
 	cp config/i3/config ~/.config/i3/config
