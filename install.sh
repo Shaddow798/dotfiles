@@ -11,7 +11,8 @@ apperance () {
 	mkdir -p ~/.config/i3/
 	cp config/i3/config ~/.config/i3/config
 	mkdir -p ~/.config/polybar
-	c- config/polybar/config.ini ~/.config/polybar/config.ini
+	cp config/polybar/config.ini ~/.config/polybar/config.ini
+	betterlockscreen -w ~/.local/wallpapers/lock.jpg
 }
 
 
