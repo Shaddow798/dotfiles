@@ -238,7 +238,7 @@ bindsym $mod+x exec bitwarden-desktop
 
 
 # Autolaunching stuff
-exec_always --no-startup-id polybar
+exec_always --no-startup-id sh /home/sam/.local/scripts/polybar.sh
 exec_always --no-startup-id sh /home/sam/.fehbg
 exec_always --no-startup-id picom &
 
