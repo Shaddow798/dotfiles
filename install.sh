@@ -12,7 +12,7 @@ apperance () {
 	cp config/i3/config ~/.config/i3/config
 	mkdir -p ~/.config/polybar
 	cp config/polybar/config.ini ~/.config/polybar/config.ini
-	betterlockscreen -w ~/.local/wallpapers/lock.jpg
+	#betterlockscreen -w ~/.local/wallpapers/lock.jpg
 }
 
 
