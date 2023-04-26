@@ -47,3 +47,6 @@ ZSHRC=~/.zshrc
 if test -f "$FILE"; then
     echo "$FILE exists."
 fi
+
+
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

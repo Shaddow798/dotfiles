@@ -15,6 +15,10 @@ apperance () {
 	#betterlockscreen -w ~/.local/wallpapers/lock.jpg
 }
 
+script_folder () {
+	mkdir -p ~/.local/scripts/
+	cp scripts/* ~/.local/scripts/
+}
 
 arch_runner () {
 	sh packages.sh
