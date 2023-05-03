@@ -71,7 +71,7 @@ floating_modifier $mod
 
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
-tiling_drag modifier titlebar
+#tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Shift+Return exec i3-sensible-terminal
@@ -251,8 +251,8 @@ bindsym $mod+KP_Divide exec sh /home/sam/.local/bin/scripts/openvpn.sh
 
 
 # Autolaunching stuff
-exec_always --no-startup-id sh /home/sam/.local/scripts/polybar.sh
+exec_always --no-startup-id sh /home/sam/.local/bin/scripts/polybar.sh
 exec_always --no-startup-id sh /home/sam/.fehbg
 exec_always --no-startup-id picom &
-# exec_alwyas --no-startup-id wal -i /home/sam/.local/wallpapers/mountaingrey.jpg
+exec_always --no-startup-id wal -i /home/sam/.local/wallpapers/wall.jpg
 
