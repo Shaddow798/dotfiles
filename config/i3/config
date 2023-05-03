@@ -247,7 +247,7 @@ bindsym $mod+b exec discord
 bindsym $mod+e exec thunar
 bindsym $mod+z exec authy
 bindsym $mod+x exec bitwarden-desktop
-
+bindsym $mod+KP_Divide exec sh /home/sam/.local/bin/scripts/openvpn.sh
 
 
 # Autolaunching stuff
