@@ -13,11 +13,12 @@ apperance () {
 	mkdir -p ~/.config/polybar
 	cp config/polybar/config.ini ~/.config/polybar/config.ini
 	#betterlockscreen -w ~/.local/wallpapers/lock.jpg
+	script_folder
 }
 
 script_folder () {
-	mkdir -p ~/.local/scripts/
-	cp scripts/* ~/.local/scripts/
+	mkdir -p ~/.local/bin/scripts/
+	cp -r scripts/* ~/.local/bin/scripts/
 }
 
 arch_runner () {
